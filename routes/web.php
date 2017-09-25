@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('test/{name}', 'TestController@index');
+
+Route::get('user', 'TestController@user');
+
+Route::get('about', 'TestController@about');
+
+//{name} becomes a variable and any string will lead to said page.
