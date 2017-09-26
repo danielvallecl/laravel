@@ -14,7 +14,16 @@ class TestController extends Controller
 
   public function user()
   {
-    return view('user');
+    $users = [
+
+    1 => "Daniel",
+    2 => "Maila",
+    3 => "Ana",
+    4 => "Radojka",
+    5 => "Daniela",
+    ];
+
+    return view('user', compact($users));
   }
 
   public function about()

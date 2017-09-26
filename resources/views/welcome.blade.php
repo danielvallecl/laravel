@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    You will make it.
+                    You will survive.
                 </div>
 
                 <div class="links">
